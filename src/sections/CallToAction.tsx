@@ -32,7 +32,7 @@ export const CallToAction = () => {
             src={starImage.src}
             alt="Star image"
             width={360}
-            className="absolute -left-[350px] -top-[137px]"
+            className="hidden md:block absolute -left-[350px] -top-[137px]"
             style={{
               translateY,
             }}
@@ -41,18 +41,22 @@ export const CallToAction = () => {
             src={springImage.src}
             alt="Spring image"
             width={360}
-            className="absolute -right-[331px] -top-[19px]"
+            className="hidden md:block absolute -right-[331px] -top-[19px]"
             style={{
               translateY,
             }}
           />
         </div>
         <div className="flex gap-2 mt-10 justify-center">
-          <button className="btn btn-primary">Get for free</button>
-          <button className="btn btn-text gap-1">
-            <span>Learn more</span>
-            <ArrowIcon className="h-5 w-5" />
-          </button>
+          <a href="#">
+            <button className="btn btn-primary">Get for free</button>
+          </a>
+          <a href="#">
+            <button className="btn btn-text gap-1">
+              <span>Learn more</span>
+              <ArrowIcon className="h-5 w-5" />
+            </button>
+          </a>
         </div>
       </div>
     </section>

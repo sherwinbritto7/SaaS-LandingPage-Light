@@ -41,11 +41,15 @@ export const Hero = () => {
               results.
             </p>
             <div className="flex gap-1 items-center mt-[30px]">
-              <button className="btn btn-primary">Get for free</button>
-              <button className="btn btn-text gap-1">
-                <span>Learn more</span>
-                <ArrowIcon className="h-5 w-5" />
-              </button>
+              <a href="#">
+                <button className="btn btn-primary">Get for free</button>
+              </a>
+              <a href="#">
+                <button className="btn btn-text gap-1">
+                  <span>Learn more</span>
+                  <ArrowIcon className="h-5 w-5" />
+                </button>
+              </a>
             </div>
           </div>
           <div className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative">
