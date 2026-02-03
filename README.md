@@ -25,5 +25,4 @@ Perfect for startups, products, and businesses looking for a fast, clean, and vi
 
 ---
 
-## 📂 Project Structure
 
